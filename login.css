@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 60px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links li {
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover,
+.nav-links .active {
+  color: #ff0077;
+  text-shadow: 0 0 10px #ff0077, 0 0 20px #ff0077;
+}
+
+
+.login-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: rgba(30, 30, 30, 0.9);
+  border-radius: 20px;
+  padding: 50px 60px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(255, 0, 119, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.login-box h2 {
+  font-size: 32px;
+  color: #ff0077;
+  margin-bottom: 25px;
+  text-shadow: 0 0 15px #ff0077;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 8px;
+  background: #222;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1);
+}
+
+input:focus {
+  border: 1px solid #ff0077;
+  box-shadow: 0 0 8px #ff0077;
+}
+
+
+.login-btn,
+.back-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-btn {
+  background: #ff0077;
+  color: white;
+  box-shadow: 0 0 15px rgba(255, 0, 119, 0.4);
+}
+
+.login-btn:hover {
+  box-shadow: 0 0 25px rgba(255, 0, 119, 0.6);
+  transform: scale(1.03);
+}
+
+.back-btn {
+  background: #222;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.back-btn:hover {
+  background: #ff0077;
+  color: white;
+  box-shadow: 0 0 20px rgba(255, 0, 119, 0.4);
+}

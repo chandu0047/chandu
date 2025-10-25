@@ -1,0 +1,79 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at center, #000 0%, #0a0a0a 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.reg {
+  background: #121212;
+  padding: 40px 45px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px #ff0077;
+  width: 400px;
+  text-align: center;
+}
+
+.reg h2 {
+  color: #ff0077;
+  font-weight: 600;
+  text-shadow: 0 0 10px #ff0077;
+  margin-bottom: 25px;
+}
+
+.reg input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #1e1e1e;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+}
+
+.reg input::placeholder {
+  color: #777;
+}
+
+.reg button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reg .register-btn {
+  background-color: #ff0077;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 0 10px #ff0077;
+}
+
+.reg .register-btn:hover {
+  transform: scale(1.02);
+  color: #fff;
+  background: #ff0077;
+  box-shadow: 0 0 20px #ff0077, 0 0 40px #ff0077;
+}
+
+.reg .back-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #333;
+  margin-top: 10px;
+}
+
+.reg .back-btn:hover {
+  background-color: #ff0077;
+  color: #fff;
+  box-shadow: 0 0 15px #ff0077;
+}

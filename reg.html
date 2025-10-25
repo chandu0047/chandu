@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Form</title>
+  <link rel="stylesheet" href="./reg.css">
+</head>
+<body>
+  <div class="reg">
+    <h2>Register</h2>
+    <form id="registerForm">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <input type="tel" id="phone" placeholder="Phone Number" required pattern="[0-9]{10}">
+      <button type="submit">Sign Up</button>
+       <button type="button" class="login-btn" id="loginBtn">Login</button>
+      <button type="button" class="back-btn" id="backBtn">Back</button>
+    </form>
+  </div>
+
+<script src="./reg.js"></script>
+</body>
+</html>

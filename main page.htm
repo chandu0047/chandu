@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SNEAKER HUB</title>
+  <link rel="stylesheet" href="./main page.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="./assets/sneaker logo.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">HOME</a></li>
+        <li><a href="#">PRODUCTS</a></li>
+        <li><a href="#">VIBE</a></li>
+        <li><a href="#">STYLES</a></li>
+        <li><a href="#">TRENDS</a></li>
+        <li><a href="#">TESTIMONIALS</a></li>
+        <li><a href="#">JOIN</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+
+   
+    <div class="cart-icon" id="cart-icon">
+      🛒 <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="text-container">
+      <h1>SNEAKER HUB</h1>
+      <p>Sneakers aren’t just something you wear — they’re a story you walk in. Every sole carries a rhythm, every lace ties up a memory, and every step echoes personality. From the grind of city streets to the calm of empty courts, sneakers have evolved into a culture that blends movement, art, and identity. They remind us that confidence doesn’t come from following the crowd — it comes from walking your own path, one step at a time.</p>
+      <a href="#products" class="button">EXPLORE NOW</a>
+    </div>
+    <div class="image-container">
+      <img src="./assets/jordan.jpg" alt="Main Sneaker" class="hero-img"> 
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <h2>OUR TOP PICKS</h2>
+    <div class="product-grid">
+      <div class="product-card" data-name="NIKE AIR JORDAN'S" data-price="250" data-img="./assets/red nike sneakers.webp">
+        <img src="./assets/red nike sneakers.webp" alt=" ">
+        <h3>NIKE AIR JORDAN'S</h3>
+        <button class="buy-btn">BUY NOW</button>
+      </div>
+      <div class="product-card" data-name="LV JORDAN'S" data-price="400" data-img="./assets/LV.jpg">
+        <img src="./assets/LV.jpg" alt=" ">
+        <h3>LV JORDAN'S</h3>
+        <button class="buy-btn">BUY NOW</button>
+      </div>
+      <div class="product-card" data-name="DIOR JORDAN'S" data-price="500" data-img="./assets/dior.jpg">
+        <img src="./assets/dior.jpg" alt=" ">
+        <h3>DIOR JORDAN'S</h3>
+        <button class="buy-btn">BUY NOW</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="vibe" class="vibe">
+    <h2>OUR VIBE</h2>
+    <p>We live sneakers. From sunrise jogs to midnight beats — it’s more than fashion; it’s a way of life.</p>
+    <div class="vibe-icons">
+      <div class="vibe-item">
+        <img src="./assets/air.jpg" alt="">
+        <h3>STREET WEAR</h3>
+      </div>
+      <div class="vibe-item">
+        <img src="./assets/red puma.jpg" alt="">
+        <h3>SPORT WEAR</h3>
+      </div>
+      <div class="vibe-item">
+        <img src="./assets/addidas sneakers.webp" alt="">
+        <h3>STYLISH WEAR</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="styles" class="styles">
+    <h2>FIND YOUR STYLE</h2>
+    <div class="style-grid">
+      <div class="style-card">
+        <img src="./assets/reabok sneaker.jpg" alt="Streetwear King">
+        <h3>STREETWEAR KING</h3>
+        <p>Built to rule the pavement with confidence.</p>
+      </div>
+      <div class="style-card">
+        <img src="./assets/puma x  BMW Sneakers.avif" alt="Classic Retro">
+        <h3>CLASSIC ONE'S</h3>
+        <p>Old-school charm meets modern energy.</p>
+      </div>
+      <div class="style-card">
+        <img src="./assets/purple.jpg" alt="Sport Beast">
+        <h3>SPORT SNEAKER</h3>
+        <p>Performance-driven design for the fast and fierce.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="trends" class="trends">
+    <h2>HOT TRENDS</h2>
+    <div class="trends-grid">
+      <div class="trend-card">
+        <img src="./assets/Nike Air Max.jpg" alt="">
+        <h3>FUTURE RUN</h3>
+        <p>Minimalist design with maximal comfort.</p>
+      </div>
+      <div class="trend-card">
+        <img src="./assets/adidas Boost Black Solar.jpg" alt="">
+        <h3>RETRO VIBES</h3>
+        <p>Old-school sneakers with modern touches.</p>
+      </div>
+      <div class="trend-card">
+        <img src="./assets/Puma Velocity Nitro Shoes.jpg" alt="">
+        <h3>LIMITED EDITION</h3>
+        <p>Rare drops for sneaker enthusiasts.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>WHAT PEOPLE SAY</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p>"Absolutely love my new sneakers! Perfect fit and style." </p>
+        <h4>--MONIEEE--</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>"The design is unique and really stands out in the crowd!"</p>
+        <h4>--REDDIEEE--</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>"Fast delivery and excellent quality. Highly recommend!"</p>
+        <h4>--HONIEEE--</h4>
+      </div>
+    </div>
+  </section>
+
+  <section id="join" class="join">
+    <h2>JOIN THE SNEAKER CREW</h2>
+    <p>Be the first to grab our exclusive drops.</p>
+    <form class="join-form">
+      <input type="email" placeholder="Enter your email" required>
+      <button class="button" type="submit">Join Now</button>
+    </form>
+  </section>
+
+  <section id="contact" class="contact">
+  <h2>CONTACT US</h2>
+  <p>Got questions? Drop us a line!</p>
+  <img src="./assets/just  do it.jpg" alt="Contact Image" class="contact-photo"> 
+
+ 
+  <textarea id="contact-review" placeholder="Just Drop A Review About My Page..." rows="3"></textarea>
+  <button class="contact-btn" id="contact-submit">SUBMIT!!!</button>
+
+  
+  <div id="saved-reviews">
+    <h3>MY PAGE REVIEWS</h3>
+    <ul id="review-list"></ul>
+  </div>
+</section>
+
+
+ 
+  <div id="cart-popup" class="cart-popup">
+    <h2>Your Cart</h2>
+    <div class="cart-items"></div>
+    <p class="cart-empty">Your cart is empty</p>
+    <p class="cart-total">Total: $<span id="cart-total">0</span></p>
+    <button id="checkout-btn">CHECKOUT</button>
+    <button id="close-cart">Close</button>
+  </div>
+
+  <footer>
+    <p>© 2025 Sneaker Hub | Designed with ❤️ by Chandu🤷‍♂️</p>
+  </footer>
+
+  <script src="./main page.js"></script>
+</body>
+</html>
